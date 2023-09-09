@@ -1,0 +1,14 @@
+{
+  "name": "reprogramasemana12",
+  "version": "1.0.0",
+  "description": "Projeto Final Reprograma",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Yelitza López",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
