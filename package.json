@@ -4,7 +4,7 @@
   "description": "Projeto Final Reprograma",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest --coverage"
   },
   "author": "Yelitza López",
   "license": "ISC",
