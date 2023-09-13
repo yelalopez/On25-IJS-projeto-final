@@ -21,12 +21,14 @@ class Apartment extends RecycledPlastic{
  
     }
 
-    
     depositPlastic(weight){
         super.validateWeight(weight);
         super.recycledPlastic(weight);
         this.recycledCountPerApt += weight;
+        this.idBuilding.totalRecycledPlastic += weight
     }
+
+    
 
 }
 
