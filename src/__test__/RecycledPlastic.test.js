@@ -14,5 +14,11 @@ describe('Test Recycled Plastic class', () => {
         const contribution = recycledPlasticBin.recycledPlastic(weight);
         expect(contribution).toBe('Sua contribuição gerou uma peça de madeira plástica reciclada');
     });
-
+    
+    it('recycledPlastic method returns the correct contribution percentage', () => {
+        const recycledPlasticBin = new RecycledPlastic();
+        const weight = 25;
+        const contribution = recycledPlasticBin.recycledPlastic(weight);
+        expect(contribution).toBe('Sua contribuição gerou 1 peça(s) de madeira plástica reciclada e ainda aporto 10% para a fabricação de outra');
+    });
 })
