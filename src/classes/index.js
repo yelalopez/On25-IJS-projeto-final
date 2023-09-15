@@ -1,12 +1,10 @@
 const Building = require('./Building')
 const Apartment = require('./Apartment')
-const RecycledPlastic = require('./RecycledPlastic')
-
 
 const predio1 = new Building('Reprograma Tower', 'Rua Todas em Tech, 52', 70710280);   
 
 const predio1_apto1201 = new Apartment(1, 'Yelitza', 1201);
-const predio1_apto101 = new Apartment(1, 'Aurora', 101);
+const predio1_apto101 = new Apartment(1, 'Eva', 101);
 
 predio1_apto1201.depositPlastic(5);
 predio1_apto1201.depositPlastic(15);
@@ -18,7 +16,7 @@ console.table(predio1.registeredApartments) //[1201, 101]
 
 /* ------------------------------------------------------ */
 
-const predio2 = new Building('Tower', 'Rua Todas em Tech, 52', 70710280);   
+const predio2 = new Building('On25 Tower', 'Rua JavaScript, 25', 70710281);   
 
 const predio2_apto1503 = new Apartment(2, 'Tiago', 1503);
 const predio2_apto1501 = new Apartment(2, 'Eva', 1501);
