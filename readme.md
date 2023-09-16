@@ -1,9 +1,9 @@
 
 ![Ecoplast](./src/img/ecoPlastBrand.png)
 
-**EcoPlast** é um programa de gestão de plástico reciclável destinado a famílias que vivem em apartamentos. O objetivo principal deste programa é incentivar a reciclagem de plástico, reduzir o impacto ambiental negativo do plástico descartado e recompensar os participantes por suas ações sustentáveis. 
+**EcoPlast** é um programa de gestão de plástico reciclável destinado a pessoas que vivem em apartamentos. O objetivo principal deste programa é incentivar a reciclagem de plástico, reduzir o impacto ambiental negativo do plástico descartado e recompensar os participantes por suas ações sustentáveis. 
 
-Esta iniciativa está inspirada no trabalho da [*Fundación Botellas de Amor*](https://botellasdeamor.org/co/), que opera na Colombia e em outros paises da América Latina.
+Esta iniciativa está inspirada no trabalho da [*Fundación Botellas de Amor*](https://botellasdeamor.org/co/), que atua na Colombia e em outros paises da América Latina.
 
 
 ### Funcionalidades
@@ -16,7 +16,7 @@ const Building = require('./Building')
 const predio1 = new Building('Reprograma Tower', 'Rua Todas em Tech, 52', 70710280);
 ```
 
-- **Gestão de Apartamentos:** A partir da confirmação do registro do predio. São criados os apartamentos participantes, na classe Apartment. Posterior a esto, é possível inserir as informações sobre a quantidade de plástico descartado.
+- **Gestão de Apartamentos:** A partir da confirmação do registro do predio. São criados os apartamentos participantes, na classe Apartment. Em seguida, é possível inserir as informações sobre a quantidade de plástico descartado.
 
 ```javascript
 const Apartment = require('./Apartment')
@@ -43,7 +43,7 @@ recycledPlastic(weight)
 
 ## Rodando os testes
 
-Para rodar os testes, rode o seguinte comando
+Para rodar os testes, execute o seguinte comando
 
 ```bash
   npm run test
@@ -54,6 +54,8 @@ Para rodar os testes, rode o seguinte comando
   ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
   ![Jest](https://img.shields.io/badge/-Jest-0D1117?style=for-the-badge&logo=jest&labelColor=0D1117)&nbsp;
 
+### Agradecimentos
+Meus mais sinceros agradecimentos a toda equipe Reprograma. Nossa guerreira Raquel Andrade, pelo acompanhamento incansável. À Luciana Primante, pela força no desenvolvimento do curso. Nada seria possível sem o engajamento das professoras: Mariana Lima, Layla Canto, Lua Kerlen, Renata Andrade, Camila Monteiro e das monitoras Nathalia Micheloni e Cintia Fumi. Além disso, agradeço à psicóloga Ju Farias e na área de empregabilidade social, à Bárbara Gomes. Finalmente a todas as mulheres dessa turma que tornou cada encontro muito especial.
 ### Autora
 
 [Yelitza López](https://www.github.com/yelalopez)
